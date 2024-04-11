@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    z-index: -10;
+}
+
+nav ul{
+    left: 0;
+    position: absolute;
+    top: 12px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 5%;
+    vertical-align: top;
+}
+
+nav ul li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+nav li a {
+    color: #161C2D;
+    text-decoration: none;
+    padding: 5px 26px;
+    transition: 1s;
+    display: inline;
+}
