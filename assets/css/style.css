@@ -7,6 +7,14 @@ nav{
     width: 100%;
 }
 
+header::before{
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    content: "";
+    position: absolute;
+}
+
 header ul{
     display: flex;
     width: 100%;
@@ -41,13 +49,13 @@ nav li a {
 
 #sessao-apresentacao{
     display: flex;
+    width: 100vw;
     height: 100vh;
     gap: 5rem;
     padding: 2rem;
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    width: 100vh;
 }
 
 #sessao-apresentacao img{
@@ -126,6 +134,13 @@ nav li a {
     width: 356px;
     height: 301px;
     margin-top: 100px;
+}
+
+.airpod{
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    z-index: -10;
 }
 
 #sessao-apresentacao{
